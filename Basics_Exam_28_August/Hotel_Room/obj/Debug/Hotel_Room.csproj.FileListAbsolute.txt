@@ -1,0 +1,5 @@
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Hotel_Room\bin\Debug\Hotel_Room.exe.config
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Hotel_Room\bin\Debug\Hotel_Room.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Hotel_Room\bin\Debug\Hotel_Room.pdb
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Hotel_Room\obj\Debug\Hotel_Room.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Hotel_Room\obj\Debug\Hotel_Room.pdb

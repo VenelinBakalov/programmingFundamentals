@@ -1,0 +1,5 @@
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Axe\bin\Debug\Axe.exe.config
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Axe\bin\Debug\Axe.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Axe\bin\Debug\Axe.pdb
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Axe\obj\Debug\Axe.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Axe\obj\Debug\Axe.pdb

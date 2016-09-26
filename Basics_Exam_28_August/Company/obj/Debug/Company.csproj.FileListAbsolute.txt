@@ -1,0 +1,5 @@
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Company\bin\Debug\Company.exe.config
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Company\bin\Debug\Company.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Company\bin\Debug\Company.pdb
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Company\obj\Debug\Company.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Company\obj\Debug\Company.pdb

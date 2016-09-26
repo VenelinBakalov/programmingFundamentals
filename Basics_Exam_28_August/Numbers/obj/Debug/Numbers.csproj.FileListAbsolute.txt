@@ -1,0 +1,5 @@
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Numbers\bin\Debug\Numbers.exe.config
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Numbers\bin\Debug\Numbers.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Numbers\bin\Debug\Numbers.pdb
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Numbers\obj\Debug\Numbers.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Numbers\obj\Debug\Numbers.pdb

@@ -1,0 +1,5 @@
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Hospital\bin\Debug\Hospital.exe.config
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Hospital\bin\Debug\Hospital.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Hospital\bin\Debug\Hospital.pdb
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Hospital\obj\Debug\Hospital.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Hospital\obj\Debug\Hospital.pdb

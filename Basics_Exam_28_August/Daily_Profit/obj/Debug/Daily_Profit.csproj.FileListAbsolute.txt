@@ -1,0 +1,6 @@
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Daily_Profit\bin\Debug\Daily_Profit.exe.config
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Daily_Profit\bin\Debug\Daily_Profit.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Daily_Profit\bin\Debug\Daily_Profit.pdb
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Daily_Profit\obj\Debug\Daily_Profit.csprojResolveAssemblyReference.cache
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Daily_Profit\obj\Debug\Daily_Profit.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Basics_Exam_28_August\Daily_Profit\obj\Debug\Daily_Profit.pdb
