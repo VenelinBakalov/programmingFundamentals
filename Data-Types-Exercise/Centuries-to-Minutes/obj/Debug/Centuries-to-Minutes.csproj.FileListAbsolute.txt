@@ -1,0 +1,6 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Centuries-to-Minutes\bin\Debug\Centuries-to-Minutes.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Centuries-to-Minutes\bin\Debug\Centuries-to-Minutes.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Centuries-to-Minutes\bin\Debug\Centuries-to-Minutes.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Centuries-to-Minutes\obj\Debug\Centuries-to-Minutes.csprojResolveAssemblyReference.cache
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Centuries-to-Minutes\obj\Debug\Centuries-to-Minutes.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Centuries-to-Minutes\obj\Debug\Centuries-to-Minutes.pdb

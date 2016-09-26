@@ -1,0 +1,6 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Elevator\bin\Debug\Elevator.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Elevator\bin\Debug\Elevator.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Elevator\bin\Debug\Elevator.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Elevator\obj\Debug\Elevator.csprojResolveAssemblyReference.cache
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Elevator\obj\Debug\Elevator.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Elevator\obj\Debug\Elevator.pdb

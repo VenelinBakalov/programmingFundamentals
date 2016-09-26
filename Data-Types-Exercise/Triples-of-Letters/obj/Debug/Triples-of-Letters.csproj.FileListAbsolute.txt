@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Triples-of-Letters\bin\Debug\Triples-of-Letters.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Triples-of-Letters\bin\Debug\Triples-of-Letters.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Triples-of-Letters\bin\Debug\Triples-of-Letters.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Triples-of-Letters\obj\Debug\Triples-of-Letters.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Triples-of-Letters\obj\Debug\Triples-of-Letters.pdb

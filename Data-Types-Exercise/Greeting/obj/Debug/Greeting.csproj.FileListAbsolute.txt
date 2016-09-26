@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Greeting\bin\Debug\Greeting.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Greeting\bin\Debug\Greeting.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Greeting\bin\Debug\Greeting.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Greeting\obj\Debug\Greeting.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Greeting\obj\Debug\Greeting.pdb

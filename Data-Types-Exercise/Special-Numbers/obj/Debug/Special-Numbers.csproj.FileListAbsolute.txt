@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Special-Numbers\bin\Debug\Special-Numbers.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Special-Numbers\bin\Debug\Special-Numbers.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Special-Numbers\bin\Debug\Special-Numbers.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Special-Numbers\obj\Debug\Special-Numbers.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Special-Numbers\obj\Debug\Special-Numbers.pdb

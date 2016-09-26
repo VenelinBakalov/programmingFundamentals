@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Circle-Area\bin\Debug\Circle-Area.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Circle-Area\bin\Debug\Circle-Area.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Circle-Area\bin\Debug\Circle-Area.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Circle-Area\obj\Debug\Circle-Area.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-Exercise\Circle-Area\obj\Debug\Circle-Area.pdb
