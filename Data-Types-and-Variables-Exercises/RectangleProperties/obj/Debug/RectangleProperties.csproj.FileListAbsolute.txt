@@ -1,0 +1,6 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\RectangleProperties\bin\Debug\RectangleProperties.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\RectangleProperties\bin\Debug\RectangleProperties.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\RectangleProperties\bin\Debug\RectangleProperties.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\RectangleProperties\obj\Debug\RectangleProperties.csprojResolveAssemblyReference.cache
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\RectangleProperties\obj\Debug\RectangleProperties.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\RectangleProperties\obj\Debug\RectangleProperties.pdb

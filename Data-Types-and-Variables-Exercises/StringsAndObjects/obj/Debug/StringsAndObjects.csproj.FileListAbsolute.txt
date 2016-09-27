@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\StringsAndObjects\bin\Debug\StringsAndObjects.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\StringsAndObjects\bin\Debug\StringsAndObjects.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\StringsAndObjects\bin\Debug\StringsAndObjects.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\StringsAndObjects\obj\Debug\StringsAndObjects.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\StringsAndObjects\obj\Debug\StringsAndObjects.pdb
