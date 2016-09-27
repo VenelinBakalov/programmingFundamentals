@@ -1,0 +1,6 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\DifferentIntegersSize\bin\Debug\DifferentIntegersSize.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\DifferentIntegersSize\bin\Debug\DifferentIntegersSize.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\DifferentIntegersSize\bin\Debug\DifferentIntegersSize.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\DifferentIntegersSize\obj\Debug\DifferentIntegersSize.csprojResolveAssemblyReference.cache
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\DifferentIntegersSize\obj\Debug\DifferentIntegersSize.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\DifferentIntegersSize\obj\Debug\DifferentIntegersSize.pdb

@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\ExchangeVariableValues\bin\Debug\ExchangeVariableValues.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\ExchangeVariableValues\bin\Debug\ExchangeVariableValues.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\ExchangeVariableValues\bin\Debug\ExchangeVariableValues.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\ExchangeVariableValues\obj\Debug\ExchangeVariableValues.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\ExchangeVariableValues\obj\Debug\ExchangeVariableValues.pdb

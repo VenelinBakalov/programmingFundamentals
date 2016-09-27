@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\BooleanVariableNew\bin\Debug\BooleanVariableNew.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\BooleanVariableNew\bin\Debug\BooleanVariableNew.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\BooleanVariableNew\bin\Debug\BooleanVariableNew.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\BooleanVariableNew\obj\Debug\BooleanVariableNew.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\BooleanVariableNew\obj\Debug\BooleanVariableNew.pdb
