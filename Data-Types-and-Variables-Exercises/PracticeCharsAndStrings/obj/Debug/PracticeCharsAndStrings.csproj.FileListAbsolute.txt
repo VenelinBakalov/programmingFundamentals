@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PracticeCharsAndStrings\bin\Debug\PracticeCharsAndStrings.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PracticeCharsAndStrings\bin\Debug\PracticeCharsAndStrings.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PracticeCharsAndStrings\bin\Debug\PracticeCharsAndStrings.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PracticeCharsAndStrings\obj\Debug\PracticeCharsAndStrings.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PracticeCharsAndStrings\obj\Debug\PracticeCharsAndStrings.pdb

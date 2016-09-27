@@ -1,0 +1,6 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\Practice-Integers\bin\Debug\Practice-Integers.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\Practice-Integers\bin\Debug\Practice-Integers.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\Practice-Integers\bin\Debug\Practice-Integers.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\Practice-Integers\obj\Debug\Practice-Integers.csprojResolveAssemblyReference.cache
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\Practice-Integers\obj\Debug\Practice-Integers.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\Practice-Integers\obj\Debug\Practice-Integers.pdb

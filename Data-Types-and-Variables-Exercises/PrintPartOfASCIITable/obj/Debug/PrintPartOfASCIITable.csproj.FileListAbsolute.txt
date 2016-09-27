@@ -1,0 +1,5 @@
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PrintPartOfASCIITable\bin\Debug\PrintPartOfASCIITable.exe.config
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PrintPartOfASCIITable\bin\Debug\PrintPartOfASCIITable.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PrintPartOfASCIITable\bin\Debug\PrintPartOfASCIITable.pdb
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PrintPartOfASCIITable\obj\Debug\PrintPartOfASCIITable.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PrintPartOfASCIITable\obj\Debug\PrintPartOfASCIITable.pdb

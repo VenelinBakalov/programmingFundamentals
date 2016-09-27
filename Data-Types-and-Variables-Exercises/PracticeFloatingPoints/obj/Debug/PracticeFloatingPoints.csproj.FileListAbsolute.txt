@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PracticeFloatingPoints\bin\Debug\PracticeFloatingPoints.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PracticeFloatingPoints\bin\Debug\PracticeFloatingPoints.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PracticeFloatingPoints\bin\Debug\PracticeFloatingPoints.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PracticeFloatingPoints\obj\Debug\PracticeFloatingPoints.exe
+c:\users\djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\PracticeFloatingPoints\obj\Debug\PracticeFloatingPoints.pdb
