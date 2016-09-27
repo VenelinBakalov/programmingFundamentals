@@ -1,0 +1,6 @@
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\FastPrimeChecker\bin\Debug\FastPrimeChecker.exe.config
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\FastPrimeChecker\bin\Debug\FastPrimeChecker.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\FastPrimeChecker\bin\Debug\FastPrimeChecker.pdb
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\FastPrimeChecker\obj\Debug\FastPrimeChecker.csprojResolveAssemblyReference.cache
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\FastPrimeChecker\obj\Debug\FastPrimeChecker.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Data-Types-and-Variables-Exercises\FastPrimeChecker\obj\Debug\FastPrimeChecker.pdb
