@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PrintingTriangle\bin\Debug\PrintingTriangle.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PrintingTriangle\bin\Debug\PrintingTriangle.exe
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PrintingTriangle\bin\Debug\PrintingTriangle.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PrintingTriangle\obj\Debug\PrintingTriangle.exe
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PrintingTriangle\obj\Debug\PrintingTriangle.pdb

@@ -1,0 +1,6 @@
+C:\Users\Djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PriceChangeAlert\bin\Debug\PriceChangeAlert.exe.config
+C:\Users\Djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PriceChangeAlert\bin\Debug\PriceChangeAlert.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PriceChangeAlert\bin\Debug\PriceChangeAlert.pdb
+C:\Users\Djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PriceChangeAlert\obj\Debug\PriceChangeAlert.csprojResolveAssemblyReference.cache
+C:\Users\Djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PriceChangeAlert\obj\Debug\PriceChangeAlert.exe
+C:\Users\Djani\documents\visual studio 2015\Projects\Methods-and-Debugging\PriceChangeAlert\obj\Debug\PriceChangeAlert.pdb

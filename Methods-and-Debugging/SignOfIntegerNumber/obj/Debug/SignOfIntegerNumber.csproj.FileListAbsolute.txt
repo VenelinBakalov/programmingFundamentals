@@ -1,0 +1,5 @@
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\SignOfIntegerNumber\bin\Debug\SignOfIntegerNumber.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\SignOfIntegerNumber\bin\Debug\SignOfIntegerNumber.exe
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\SignOfIntegerNumber\bin\Debug\SignOfIntegerNumber.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\SignOfIntegerNumber\obj\Debug\SignOfIntegerNumber.exe
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\SignOfIntegerNumber\obj\Debug\SignOfIntegerNumber.pdb
