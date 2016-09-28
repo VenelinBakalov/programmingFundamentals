@@ -1,0 +1,6 @@
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\CalculateTriangleArea\bin\Debug\CalculateTriangleArea.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\CalculateTriangleArea\bin\Debug\CalculateTriangleArea.exe
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\CalculateTriangleArea\bin\Debug\CalculateTriangleArea.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\CalculateTriangleArea\obj\Debug\CalculateTriangleArea.csprojResolveAssemblyReference.cache
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\CalculateTriangleArea\obj\Debug\CalculateTriangleArea.exe
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\CalculateTriangleArea\obj\Debug\CalculateTriangleArea.pdb

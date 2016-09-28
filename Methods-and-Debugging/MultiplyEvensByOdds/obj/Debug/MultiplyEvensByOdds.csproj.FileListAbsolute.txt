@@ -1,0 +1,6 @@
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\MultiplyEvensByOdds\bin\Debug\MultiplyEvensByOdds.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\MultiplyEvensByOdds\bin\Debug\MultiplyEvensByOdds.exe
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\MultiplyEvensByOdds\bin\Debug\MultiplyEvensByOdds.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\MultiplyEvensByOdds\obj\Debug\MultiplyEvensByOdds.csprojResolveAssemblyReference.cache
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\MultiplyEvensByOdds\obj\Debug\MultiplyEvensByOdds.exe
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\MultiplyEvensByOdds\obj\Debug\MultiplyEvensByOdds.pdb

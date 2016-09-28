@@ -1,0 +1,6 @@
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\BlankReceipt\bin\Debug\BlankReceipt.exe.config
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\BlankReceipt\bin\Debug\BlankReceipt.exe
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\BlankReceipt\bin\Debug\BlankReceipt.pdb
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\BlankReceipt\obj\Debug\BlankReceipt.csprojResolveAssemblyReference.cache
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\BlankReceipt\obj\Debug\BlankReceipt.exe
+c:\users\djani\documents\visual studio 2015\Projects\Methods-and-Debugging\BlankReceipt\obj\Debug\BlankReceipt.pdb
