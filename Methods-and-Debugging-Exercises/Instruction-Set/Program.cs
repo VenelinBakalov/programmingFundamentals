@@ -14,28 +14,28 @@ class InstructionSet_broken
             {
                 case "inc":
                     {
-                        int operandOne = int.Parse(codeArgs[1]);
-                        result = operandOne++;
+                        long operandOne = long.Parse(codeArgs[1]);
+                        result = ++operandOne;
                         break;
                     }
                 case "dec":
                     {
-                        int operandOne = int.Parse(codeArgs[1]);
-                        result = operandOne--;
+                        long operandOne = long.Parse(codeArgs[1]);
+                        result = --operandOne;
                         break;
                     }
                 case "add":
                     {
-                        int operandOne = int.Parse(codeArgs[1]);
-                        int operandTwo = int.Parse(codeArgs[2]);
+                        long operandOne = long.Parse(codeArgs[1]);
+                        long operandTwo = long.Parse(codeArgs[2]);
                         result = operandOne + operandTwo;
                         break;
                     }
                 case "mla":
                     {
-                        int operandOne = int.Parse(codeArgs[1]);
-                        int operandTwo = int.Parse(codeArgs[2]);
-                        result = (long)(operandOne * operandTwo);
+                        long operandOne = long.Parse(codeArgs[1]);
+                        long operandTwo = long.Parse(codeArgs[2]);
+                        result = (long)operandOne * operandTwo;
                         break;
                     }
             }
