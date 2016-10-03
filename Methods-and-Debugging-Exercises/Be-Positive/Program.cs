@@ -16,7 +16,7 @@ public class BePositive_broken
             {
                 if (!input[j].Equals(string.Empty))
                 {
-                    int num = int.Parse(input[i]);
+                    int num = int.Parse(input[j]);
                     numbers.Add(num);
                 }
             }
@@ -27,7 +27,7 @@ public class BePositive_broken
             {
                 int currentNum = numbers[j];
 
-                if (currentNum > 0)
+                if (currentNum >= 0)
                 {
                     if (found)
                     {
@@ -38,11 +38,11 @@ public class BePositive_broken
 
                     found = true;
                 }
-                else
+                else if (j + 1 < numbers.Count)
                 {
-                    currentNum += numbers[j + 1];
+                    currentNum += numbers[++j];
 
-                    if (currentNum > 0)
+                    if (currentNum >= 0)
                     {
                         if (found)
                         {
@@ -58,8 +58,9 @@ public class BePositive_broken
 
             if (!found)
             {
-                Console.WriteLine("(empty)");
+                Console.Write("(empty)");
             }
+            Console.WriteLine();
         }
     }
 }
