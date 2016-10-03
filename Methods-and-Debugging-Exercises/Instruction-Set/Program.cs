@@ -4,34 +4,34 @@ class InstructionSet_broken
 {
     static void Main()
     {
-        string opCode = Console.ReadLine().ToLower();
+        string opCode = Console.ReadLine();
 
-        while (opCode != "end")
+        while (opCode != "END")
         {
             string[] codeArgs = opCode.Split(' ');
             long result = 0;
             switch (codeArgs[0])
             {
-                case "inc":
+                case "INC":
                     {
                         long operandOne = long.Parse(codeArgs[1]);
                         result = ++operandOne;
                         break;
                     }
-                case "dec":
+                case "DEC":
                     {
                         long operandOne = long.Parse(codeArgs[1]);
                         result = --operandOne;
                         break;
                     }
-                case "add":
+                case "ADD":
                     {
                         long operandOne = long.Parse(codeArgs[1]);
                         long operandTwo = long.Parse(codeArgs[2]);
                         result = operandOne + operandTwo;
                         break;
                     }
-                case "mla":
+                case "MLA":
                     {
                         long operandOne = long.Parse(codeArgs[1]);
                         long operandTwo = long.Parse(codeArgs[2]);
