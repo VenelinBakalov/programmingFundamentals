@@ -18,16 +18,41 @@ namespace Tripple_Sum
             {
                 numbers[i] = int.Parse(items[i]);
             }
+            bool empty = true;
 
-            for (int indexA = 1; indexA < numbers.Length; indexA++)
+            for (int i = 0; i < numbers.Length; i++)
             {
-                for (int indexB = 0; indexB < indexA; indexB++)
+                for (int j = 0; j < i; j++)
                 {
-                    if (numbers[indexA] == numbers[indexA-1] + numbers[indexB])
+                    for (int n = 0; n < j; n++)
                     {
-                        Console.WriteLine("{0} + {1} == {2}", numbers[indexA-1], numbers[indexB], numbers[indexA]);
+                        if (numbers[i] == numbers[j] + numbers[n])
+                        {
+                            Console.WriteLine($"{numbers[n]} + {numbers[j]} == {numbers[i]}");
+                            empty = false;
+                        }
+                        else if (numbers[j] == numbers[i] + numbers[n])
+                        {
+                            Console.WriteLine($"{numbers[n]} + {numbers[i]} == {numbers[j]}");
+                            empty = false;
+                        }
+                        else if (numbers[n] == numbers[i] + numbers[j])
+                        {
+                            Console.WriteLine($"{numbers[j]} + {numbers[i]} == {numbers[n]}");
+                            empty = false;
+                        }
+                        else if (numbers[n] == numbers[i] + numbers[n])
+                        {
+                            Console.WriteLine($"{numbers[n]} + {numbers[i]} == {numbers[n]}");
+                            empty = false;
+                        }
                     }
                 }
+            }
+
+            if (empty)
+            {
+                Console.WriteLine("No");
             }
         }
     }
