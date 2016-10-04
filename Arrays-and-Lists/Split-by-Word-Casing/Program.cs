@@ -10,7 +10,7 @@ namespace Split_by_Word_Casing
     {
         static void Main(string[] args)
         {
-            string[] input = Console.ReadLine().Split(',', ':', ';', '.', '!', '(', ')', '"', '\'', '\\', '/', '[', ']', ' ');
+            string[] input = Console.ReadLine().Split(new char[] { ',', ':', ';', '.', '!', '(', ')', '"', '\'', '\\', '/', '[', ']', ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
             List<string> lowercaseWords = new List<string>();
             List<string> mixedcaseWords = new List<string>();
