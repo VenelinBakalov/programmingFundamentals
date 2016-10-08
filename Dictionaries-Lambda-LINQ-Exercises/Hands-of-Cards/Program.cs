@@ -10,82 +10,60 @@ namespace Hands_of_Cards
     {
         static void Main(string[] args)
         {
-            Dictionary<string, string> playerScore = new Dictionary<string, string>();
+            Dictionary<string, List<string>> playerCards = new Dictionary<string, List<string>>();
             char[] splitters = { ':', ',', ' ' };
 
             string[] playerInformation = Console.ReadLine().Split(':').Distinct().ToArray();
 
             while (!playerInformation[0].Equals("JOKER"))
             {
-                if (!playerScore.ContainsKey(playerInformation[0]))
+                if (!playerCards.ContainsKey(playerInformation[0]))
                 {
-                    playerScore.Add(playerInformation[0], null);
+                    playerCards.Add(playerInformation[0], new List<string>());
                 }
-                playerScore[playerInformation[0]] += playerInformation[1];
 
-                /*for (int i = 1; i < playerInformation.Length; i++)
+                string[] cards = playerInformation[1].Split(splitters, StringSplitOptions.RemoveEmptyEntries).ToArray();
+
+                for (int i = 0; i < cards.Length; i++)
                 {
-                    int cardValue = GetPowerValue(playerInformation[i][0]);
-                    int multiplier = 1;
-                    if (playerInformation[i][0].Equals('1'))
+                    if (!playerCards[playerInformation[0]].Contains(cards[i]))
                     {
-                        multiplier = GetTypeMultiplier(playerInformation[i][2]);
+                        playerCards[playerInformation[0]].Add(cards[i]);
                     }
-                    else
-                    {
-                        multiplier = GetTypeMultiplier(playerInformation[i][1]);
-                    }
-                    int totalValue = cardValue * multiplier;
-                    playerScore[playerInformation[0]] += totalValue;
                 }
-                */
+
                 playerInformation = Console.ReadLine().Split(':').Distinct().ToArray();
             }
 
-            Dictionary<string, List<string>> list = new Dictionary<string, List<string>>;
+            Dictionary<string, int> playerScore = new Dictionary<string, int>();
 
-            foreach (KeyValuePair<string, string> pair in playerScore)
+            foreach (KeyValuePair<string, List<string>> cardsInfo in playerCards)
             {
-               pair.Value.Split(splitters).Where(x => !x.Equals("")).Distinct();
-                for (int i = 0; i < pair.Value.Length; i++)
+                if (!playerScore.ContainsKey(cardsInfo.Key))
                 {
-                    if (!list.ContainsKey(pair.Key))
-                    {
-                        list.Add(pair.Key, null);
-                    }
-       //             list[pair.Key].Add(pair.Value[i]);
+                    playerScore.Add(cardsInfo.Key, 0);
                 }
-            }
 
-            Dictionary<string, int> handScore = new Dictionary<string, int>();
-
-            foreach (var pair in playerScore)
-            {
-                for (int i = 0; i < pair.Value.Length; i++)
+                for (int i = 0; i < cardsInfo.Value.Count; i++)
                 {
-                    if (!handScore.ContainsKey(pair.Key))
-                    {
-                        handScore.Add(pair.Key, 0);
-                    }
-
-       //             int cardValue = GetPowerValue(pair.Value[i][0]);
+                    int power = GetPowerValue(cardsInfo.Value[i][0]);
                     int multiplier = 1;
-                    if (pair.Value[0].Equals('1'))
+                    if (cardsInfo.Value[i][0] == '1')
                     {
-        //                multiplier = GetTypeMultiplier(pair.Value[i][2]);
+                        multiplier = GetTypeMultiplier(cardsInfo.Value[i][2]);
                     }
                     else
                     {
-         //               multiplier = GetTypeMultiplier(pair.Value[i][1]);
+                        multiplier = GetTypeMultiplier(cardsInfo.Value[i][1]);
                     }
-       //             int totalValue = cardValue * multiplier;
-      //              handScore[pair.Key] += totalValue;
+                    int totalScore = power * multiplier;
+                    playerScore[cardsInfo.Key] += totalScore;
                 }
             }
 
-            foreach (KeyValuePair<string, int> pair in handScore)
+            foreach (KeyValuePair<string, int> playerInfo in playerScore)
             {
-                Console.WriteLine($"{pair.Key}: {pair.Value}");
+                Console.WriteLine($"{playerInfo.Key}: {playerInfo.Value}");
             }
         }
 
