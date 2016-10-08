@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hands-of-Cards", "Hands-of-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logs-Aggregator", "Logs-Aggregator\Logs-Aggregator.csproj", "{74F94F07-5515-427E-9D9B-5BE80296D28E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User-Logs", "User-Logs\User-Logs.csproj", "{E5D5332B-057B-494E-893C-C57499202024}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{74F94F07-5515-427E-9D9B-5BE80296D28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74F94F07-5515-427E-9D9B-5BE80296D28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74F94F07-5515-427E-9D9B-5BE80296D28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D5332B-057B-494E-893C-C57499202024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D5332B-057B-494E-893C-C57499202024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D5332B-057B-494E-893C-C57499202024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D5332B-057B-494E-893C-C57499202024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
