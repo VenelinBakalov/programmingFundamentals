@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Legendary_Farming
+namespace Legendary_Farming_Old
 {
     class Program
     {
@@ -12,13 +12,12 @@ namespace Legendary_Farming
         {
             Dictionary<string, int> materials = new Dictionary<string, int>();
             string legendarySword = "";
-            materials.Add("fragments", 0);
-            materials.Add("shards", 0);
-            materials.Add("motes", 0);
 
             while (true)
             {
                 string[] materialsObtained = Console.ReadLine().ToLower().Split().ToArray();
+
+                bool isEnough = false;
 
                 for (int i = 1; i < materialsObtained.Length; i += 2)
                 {
@@ -29,15 +28,35 @@ namespace Legendary_Farming
 
                     materials[materialsObtained[i]] += int.Parse(materialsObtained[i - 1]);
 
-                    legendarySword = GetLegendaryItem(materials, legendarySword);
-                   
-                    if (!legendarySword.Equals(""))
+                    if (materials[materialsObtained[i]] >= 250)
+                    {
+
+                        if (materialsObtained[i].Equals("shards"))
+                        {
+                            legendarySword = "Shadowmourne";
+                            isEnough = true;
+                            break;
+                        }
+                        else if (materialsObtained[i].Equals("fragments"))
+                        {
+                            legendarySword = "Valanyr";
+                            isEnough = true;
+                            break;
+                        }
+                        else if (materialsObtained[i].Equals("motes"))
+                        {
+                            legendarySword = "Dragonwrath";
+                            isEnough = true;
+                            break;
+                        }
+                    }
+                    if (isEnough)
                     {
                         break;
                     }
                 }
 
-                if (!legendarySword.Equals(""))
+                if (isEnough)
                 {
                     break;
                 }
@@ -45,27 +64,6 @@ namespace Legendary_Farming
 
             PrintWeapon(materials, legendarySword);
 
-        }
-
-        private static string GetLegendaryItem(Dictionary<string, int> materials, string legendarySword)
-        {
-            if (materials["fragments"] >= 250)
-            {
-                legendarySword = "Valanyr";
-                materials["fragments"] -= 250;
-            }
-            else if (materials["shards"] >= 250)
-            {
-                legendarySword = "Shadowmourne";
-                materials["shards"] -= 250;
-            }
-            else if (materials["motes"] >= 250)
-            {
-                legendarySword = "Dragonwrath";
-                materials["motes"] -= 250;
-            }
-
-            return legendarySword;
         }
 
         private static void PrintWeapon(Dictionary<string, int> materials, string legendarySword)
@@ -104,11 +102,27 @@ namespace Legendary_Farming
                 if (material.Key.Equals("shards") || material.Key.Equals("fragments") || material.Key.Equals("motes"))
                 {
                     legendaryMaterials.Add(material.Key, material.Value);
+                    if (material.Value >= 250)
+                    {
+                        legendaryMaterials[material.Key] -= 250;
+                    }
                 }
                 else
                 {
                     otherMaterials.Add(material.Key, material.Value);
                 }
+            }
+            if (!legendaryMaterials.ContainsKey("fragments"))
+            {
+                legendaryMaterials.Add("fragments", 0);
+            }
+            if (!legendaryMaterials.ContainsKey("shards"))
+            {
+                legendaryMaterials.Add("shards", 0);
+            }
+            if (!legendaryMaterials.ContainsKey("motes"))
+            {
+                legendaryMaterials.Add("motes", 0);
             }
         }
     }
