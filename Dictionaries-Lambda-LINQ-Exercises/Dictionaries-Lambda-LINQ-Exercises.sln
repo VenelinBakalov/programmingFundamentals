@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legendary-Farming", "Legend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legendary-Farming-Old", "Legendary-Farming-Old\Legendary-Farming-Old.csproj", "{058DA1D3-6307-4E42-9A0C-CC9861D36783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сръбско-Unleashed", "Сръбско-Unleashed\Сръбско-Unleashed.csproj", "{AA8512E2-D0C7-405B-8C3F-ABFE3237D259}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{058DA1D3-6307-4E42-9A0C-CC9861D36783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{058DA1D3-6307-4E42-9A0C-CC9861D36783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{058DA1D3-6307-4E42-9A0C-CC9861D36783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8512E2-D0C7-405B-8C3F-ABFE3237D259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8512E2-D0C7-405B-8C3F-ABFE3237D259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8512E2-D0C7-405B-8C3F-ABFE3237D259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8512E2-D0C7-405B-8C3F-ABFE3237D259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
