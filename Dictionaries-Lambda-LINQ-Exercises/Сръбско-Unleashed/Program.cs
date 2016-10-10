@@ -11,43 +11,63 @@ namespace Сръбско_Unleashed
         static void Main(string[] args)
         {
             Dictionary<string, Dictionary<string, long>> cityProfit = new Dictionary<string, Dictionary<string, long>>();
-            
-            string[] singerInfo = Console.ReadLine().Split('@').ToArray();
+
+            string[] singerInfo = ReadInfo();
 
             while (!singerInfo[0].Equals("End"))
             {
-                string[] singerArr = singerInfo[0].Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
-                string[] city = singerInfo[1].Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
-                string singer = string.Join(" ", singerArr);
 
-                for (int i = 0; i < city.Length; i++)
+                if (!singerInfo[0][singerInfo[0].Length - 1].Equals(' '))
                 {
-                    try
+                    singerInfo = ReadInfo();
+                }
+                else
+                {
+                    string[] leftPart = singerInfo[0].Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+                    string[] rightPart = singerInfo[1].Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+                    string singer = string.Join(" ", leftPart);
+                    
+                    if (rightPart.Length - 2 > 0)
                     {
-                        long profit = GetProfit(city[i], city[i + 1]);
+                        string[] cityAsString = new string[rightPart.Length - 2];
 
-                        List<string> cityName = new List<string>();
-                        for (int j = 0; j < i; j++)
+                        for (int i = 0; i < cityAsString.Length; i++)
                         {
-                            cityName.Add(city[j]);
+                            cityAsString[i] = rightPart[i];
                         }
 
-                        string newCity = string.Join(" ", cityName);
+                        int ticketPrice, ticketCount;
+                        long profit;
 
-                        InsertCity(cityProfit, newCity);
-                        InsertProfit(cityProfit, newCity, singer, profit);
+                        if (int.TryParse(rightPart[rightPart.Length - 1], out ticketCount) &&
+                            int.TryParse(rightPart[rightPart.Length - 2], out ticketPrice))
+                        {
+                            profit = ticketPrice * ticketCount;
+                            string newCity = string.Join(" ", cityAsString);
+                            InsertCity(cityProfit, newCity);
+                            InsertProfit(cityProfit, newCity, singer, profit);
+                            singerInfo = ReadInfo();
+                        }
+                        else
+                        {
+                            singerInfo = ReadInfo();
+                        }
 
-                        break;
                     }
-                    catch (Exception)
+                    else
                     {
+                        singerInfo = ReadInfo();
                     }
                 }
-                singerInfo = Console.ReadLine().Split('@').ToArray();
             }
 
             PrintProfit(cityProfit);
+        }
 
+        private static string[] ReadInfo()
+        {
+            string[] singerInfo = Console.ReadLine().Split('@').ToArray();
+            return singerInfo;
         }
 
         private static void PrintProfit(Dictionary<string, Dictionary<string, long>> cityProfit)
@@ -61,14 +81,6 @@ namespace Сръбско_Unleashed
                     Console.WriteLine($"#  {singerProfit.Key} -> {singerProfit.Value}");
                 }
             }
-        }
-
-        private static long GetProfit(string v1, string v2)
-        {
-            long ticketPrice = long.Parse(v1);
-            long ticketsCount = long.Parse(v2);
-            long profit = ticketPrice * ticketsCount;
-            return profit;
         }
 
         private static void InsertProfit(Dictionary<string, Dictionary<string, long>> cityProfit, string newCity, string singer, long profit)
