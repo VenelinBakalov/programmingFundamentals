@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B73C49C-DCDC-441F-90BD-E99FF679D291}</ProjectGuid>
+    <ProjectGuid>{CEB8F3B6-5C89-4648-B193-00922CE939CC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Index_of_Letters_Array</RootNamespace>
-    <AssemblyName>Index-of-Letters-Array</AssemblyName>
+    <RootNamespace>Max_Sequence_of_Equal_Elements</RootNamespace>
+    <AssemblyName>Max-Sequence-of-Equal-Elements</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
