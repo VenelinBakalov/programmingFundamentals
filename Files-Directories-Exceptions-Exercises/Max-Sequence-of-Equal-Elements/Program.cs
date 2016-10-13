@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,10 @@ namespace Max_Sequence_of_Equal_Elements
     {
         static void Main(string[] args)
         {
-            int[] input = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            const string inputFilePath = @"..\..\input.txt";
+            const string outputFilePath = @"..\..\output.txt";
+
+            int[] input = File.ReadAllText(inputFilePath).Split().Select(int.Parse).ToArray();
 
             int maxSequence = 0;
             int bestStart = 0;
@@ -19,7 +23,7 @@ namespace Max_Sequence_of_Equal_Elements
             {
                 int currentSequence = 1;
                 int pos = i + 1;
-                while (input[i].Equals(input[pos]) && pos < input.Length - 1)
+                while (pos <= input.Length - 1 && input[i].Equals(input[pos]))
                 {
                     currentSequence++;
                     pos++;
@@ -30,11 +34,13 @@ namespace Max_Sequence_of_Equal_Elements
                     bestStart = input[i];
                 }
             }
+
+            File.WriteAllText(outputFilePath, "");
+
             for (int i = 1; i <= maxSequence; i++)
             {
-                Console.Write($"{bestStart} ");
+                File.AppendAllText(outputFilePath, $"{bestStart} ");
             }
-            Console.WriteLine();
         }
     }
 }

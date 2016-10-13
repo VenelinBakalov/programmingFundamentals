@@ -32,7 +32,8 @@ namespace Average_Grades
                 students.Add(student);
             }
 
-            var orderedStudents = students.Where(s => s.Grades.Average() >= 5).OrderBy(s => s.Name).ThenByDescending(s => s.Grades.Average());
+            var orderedStudents = students.Where(s => s.Grades.Average() >= 5).OrderBy(s => s.Name)
+                                    .ThenByDescending(s => s.Grades.Average());
 
             foreach (var student in orderedStudents)
             {
