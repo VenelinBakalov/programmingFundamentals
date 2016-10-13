@@ -16,7 +16,7 @@ namespace Most_Frequent_Number
             int maxCount = 0;
             for (int i = 0; i < numbers.Length; i++)
             {
-                int currentNumberCount = 1;
+                int currentNumberCount = 0;
                 for (int j = i; j < numbers.Length; j++)
                 {
                     if (numbers[i] == numbers[j])
