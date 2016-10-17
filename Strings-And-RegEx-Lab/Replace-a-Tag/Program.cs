@@ -15,7 +15,7 @@ namespace Replace_a_Tag
 
             while (!input.Equals("end"))
             {
-                string pattern = @"<a.*?href.*?("".*?"")>(.*?)<\/a>";
+                string pattern = @"<a.*?href.*?(""\S*"")>(.*?)<\/a>";
                 string replace = @"[URL href=$1]$2[/URL]";
 
                 string replaced = Regex.Replace(input, pattern, replace);
