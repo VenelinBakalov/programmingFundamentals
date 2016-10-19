@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter-Test", "Converter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unicode-Characters-With-Select", "Unicode-Characters-With-Select\Unicode-Characters-With-Select.csproj", "{C4D8F2D2-25A1-4727-A42A-9B0E7C19E72E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extract-Emails", "Extract-Emails\Extract-Emails.csproj", "{A16AC77A-14BD-4534-ACD1-4089AC647374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C4D8F2D2-25A1-4727-A42A-9B0E7C19E72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D8F2D2-25A1-4727-A42A-9B0E7C19E72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D8F2D2-25A1-4727-A42A-9B0E7C19E72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16AC77A-14BD-4534-ACD1-4089AC647374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16AC77A-14BD-4534-ACD1-4089AC647374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16AC77A-14BD-4534-ACD1-4089AC647374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16AC77A-14BD-4534-ACD1-4089AC647374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
