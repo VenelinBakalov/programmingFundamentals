@@ -11,9 +11,8 @@ namespace Cubic_Messages
     {
         static void Main(string[] args)
         {
-            string pattern = @"(^\d+)([a-zA-Z]+)(\d*)\b";
+            string pattern = @"(^\d+)([a-zA-Z]+)([^a-zA-Z]+?)$";
             Regex regex = new Regex(pattern);
-
 
             string input = Console.ReadLine();
 
@@ -43,18 +42,27 @@ namespace Cubic_Messages
                         }
                     }
 
+
                     for (int i = 0; i < thirdGroup.Length; i++)
                     {
-                        int index = int.Parse(thirdGroup[i].ToString());
-                        if (index < secondGroup.Length)
+                        try
                         {
-                            sb.Append(secondGroup[index]);
+                            int index = int.Parse(thirdGroup[i].ToString());
+                            if (index < secondGroup.Length)
+                            {
+                                sb.Append(secondGroup[index]);
+                            }
+                            else
+                            {
+                                sb.Append(" ");
+                            }
                         }
-                        else
+                        catch (Exception)
                         {
-                            sb.Append(" ");
+
                         }
                     }
+
 
                     Console.WriteLine($"{match.Groups[2]} == {sb}");
                 }
