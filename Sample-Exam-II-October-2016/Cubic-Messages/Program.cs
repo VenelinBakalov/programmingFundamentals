@@ -11,7 +11,7 @@ namespace Cubic_Messages
     {
         static void Main(string[] args)
         {
-            string pattern = @"(^\d+)([a-zA-Z]+)([^a-zA-Z]+?)$";
+            string pattern = @"(^\d+)([a-zA-Z]+)([^a-zA-Z]*?)$";
             Regex regex = new Regex(pattern);
 
             string input = Console.ReadLine();
