@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charity-Marathon", "Charity-Marathon\Charity-Marathon.csproj", "{5EEAA267-BA5E-428D-9D77-08D3DD965EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ladybugs", "Ladybugs\Ladybugs.csproj", "{9447EC02-D298-4814-B00B-048EF463FF1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ladybugs-with-List", "Ladybugs-with-List\Ladybugs-with-List.csproj", "{75BA14D1-5E3D-4B8F-AFAE-1725F074B77E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nether-Realms", "Nether-Realms\Nether-Realms.csproj", "{D569BA67-B4BE-4858-A384-C2C344378F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roli-The-Coder", "Roli-The-Coder\Roli-The-Coder.csproj", "{9FEB9426-D304-4C39-804B-4B8532020A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nether-Realms-New", "Nether-Realms-New\Nether-Realms-New.csproj", "{C1023A08-7FD1-4F6E-804F-6C310BA90EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EEAA267-BA5E-428D-9D77-08D3DD965EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEAA267-BA5E-428D-9D77-08D3DD965EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEAA267-BA5E-428D-9D77-08D3DD965EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEAA267-BA5E-428D-9D77-08D3DD965EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9447EC02-D298-4814-B00B-048EF463FF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9447EC02-D298-4814-B00B-048EF463FF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9447EC02-D298-4814-B00B-048EF463FF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9447EC02-D298-4814-B00B-048EF463FF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75BA14D1-5E3D-4B8F-AFAE-1725F074B77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BA14D1-5E3D-4B8F-AFAE-1725F074B77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75BA14D1-5E3D-4B8F-AFAE-1725F074B77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BA14D1-5E3D-4B8F-AFAE-1725F074B77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D569BA67-B4BE-4858-A384-C2C344378F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D569BA67-B4BE-4858-A384-C2C344378F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D569BA67-B4BE-4858-A384-C2C344378F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D569BA67-B4BE-4858-A384-C2C344378F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEB9426-D304-4C39-804B-4B8532020A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEB9426-D304-4C39-804B-4B8532020A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEB9426-D304-4C39-804B-4B8532020A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEB9426-D304-4C39-804B-4B8532020A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1023A08-7FD1-4F6E-804F-6C310BA90EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1023A08-7FD1-4F6E-804F-6C310BA90EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1023A08-7FD1-4F6E-804F-6C310BA90EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1023A08-7FD1-4F6E-804F-6C310BA90EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
