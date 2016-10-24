@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Roli_The_Coder
@@ -23,7 +24,8 @@ namespace Roli_The_Coder
             {
 
                 string id = input[0];
-                string eventName = input[1].Substring(1);
+                string eventName = string.Join("", Regex.Split(input[1], "#"));
+           //     string eventName = input[1].Substring(1);
                 string symbol = input[1].Substring(0, 1);
 
                 if (symbol == "#")
@@ -41,20 +43,19 @@ namespace Roli_The_Coder
 
                 input = Console.ReadLine().Split(delimiters, StringSplitOptions.RemoveEmptyEntries).ToArray();
 
-
             }
 
             Dictionary<string, List<string>> final = new Dictionary<string, List<string>>();
 
-            foreach (var item in eventAndNames)
-            {
-                final.Add(item.Key, item.Value.OrderBy(x => x).ToList());
-            }
+   //    foreach (var item in eventAndNames)
+   //    {
+   //        final.Add(item.Key, item.Value.OrderBy(x => x).ToList());
+   //    }
 
-            foreach (var item in final.OrderByDescending(x => x.Value.Count))
+            foreach (var item in eventAndNames.OrderByDescending(x => x.Value.Count).ThenBy(x => x.Key))
             {
                 Console.WriteLine($"{item.Key} - {item.Value.Count}");
-                foreach (var itaem in item.Value)
+                foreach (var itaem in item.Value.OrderBy(x => x))
                 {
                     Console.WriteLine($"@{itaem}");
                 }
