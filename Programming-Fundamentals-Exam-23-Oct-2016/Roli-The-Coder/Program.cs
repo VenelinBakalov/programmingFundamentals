@@ -27,6 +27,7 @@ namespace Roli_The_Coder
                 //     string eventName = input[1].Substring(1);
                 string symbol = inputCommand[1].Substring(0, 1);
 
+
                 if (symbol == "#")
                 {
                     string eventName = inputCommand[1].Substring(1);
@@ -42,6 +43,7 @@ namespace Roli_The_Coder
 
                 input = Console.ReadLine();
 
+
             }
 
             //        Dictionary<string, List<string>> final = new Dictionary<string, List<string>>();
@@ -55,6 +57,7 @@ namespace Roli_The_Coder
             {
                 Console.WriteLine($"{eventName.Key} - {eventName.Value.Count}");
                 foreach (var guestName in eventName.Value.OrderBy(x => x).Distinct())
+
                 {
                     Console.WriteLine($"@{guestName}");
                 }
